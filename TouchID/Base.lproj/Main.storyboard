@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GQw-Cu-8Ql">
+                                <rect key="frame" x="240" y="282" width="120" height="36"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="120" id="Ev2-ay-ceK"/>
+                                    <constraint firstAttribute="height" constant="36" id="eE4-fo-uRr"/>
+                                </constraints>
+                                <state key="normal" title="指纹验证">
+                                    <color key="titleColor" red="1" green="0.23009558290000001" blue="0.34312612590000002" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="checkAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="foW-I1-M7T"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.69803921570000005" green="0.74509803919999995" blue="0.87450980389999999" alpha="0.61741516487730064" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="GQw-Cu-8Ql" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qoY-aw-rsx"/>
+                            <constraint firstItem="GQw-Cu-8Ql" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="xOc-sb-Wbe"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
